@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "GIS for Political Science"
+  author: "Eun Young Kim"
+  date: "10/25/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - Ch1.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
